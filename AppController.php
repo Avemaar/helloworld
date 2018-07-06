@@ -181,7 +181,7 @@ class AppController extends Controller
 		switch($role->roles[$i]->name)
 		{
 		
-		/*Set layout depends on user's group*/
+		/*Set layout menu depends on user's group*/
 		case 'admin':
 					return $this->redirect($this->Auth->redirectUrl(['controller'=>'Documents','action'=>'index']));
 					$this->viewBuilder()->layout('admin_default'); 
