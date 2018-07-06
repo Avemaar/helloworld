@@ -12,6 +12,7 @@ class SignHelper extends Helper {
  /*
  CakePHP Helper
  This function is allow to show a defined image whenever the function is called
+ the rendered image depend on the passed parameter
  */   
  public function setSign($temp=null)
          {
