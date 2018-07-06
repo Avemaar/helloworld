@@ -9,7 +9,10 @@ class SignHelper extends Helper {
     
     var $helpers=array('Html');
     
-    
+ /*
+ CakePHP Helper
+ This function is allow to show a defined image whenever the function is called
+ */   
  public function setSign($temp=null)
          {
    
